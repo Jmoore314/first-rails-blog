@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+tr a:visited, tr a, div a, div a:visited, link {
+  color: purple;
+  margin: 10px;
+}
+
+th {
+  border-bottom: 1px solid black;
+}
