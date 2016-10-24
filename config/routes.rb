@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'welcome/index'
+
+  root 'welcome#index'
+
   get 'comments/create'
 
   get 'comments/destroy'
